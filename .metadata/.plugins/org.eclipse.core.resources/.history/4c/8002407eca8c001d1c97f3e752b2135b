@@ -1,0 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>회원가입 창</title>
+</head>
+<body>
+<form method="post" action="member1.jsp">
+
+</form>
+<h1 style="text-align:center">회원 가입 창</h1>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <title>회원 가입창</title>
+   <style>
+      .container {
+         border : 1px solid black;
+         width : 500px;
+         height : 500px;
+      }
+      h1 {
+         text-align : center;
+      }
+      form {
+         padding : 10px;
+         margin : 0 auto;
+         text-align : center;
+      
+      }
+      form .inp {
+         margin : 20px;      
+         padding : 3px;
+      }
+   </style>
+</head>
+<body>
+   <div class = "container">
+   <h1>회원 가입창</h1>
+      <form method = "post" action = "member1.jsp">
+         <label>아이디<input type = "text" name = "user_id" class = "inp"></label><br>
+         <label>비밀번호<input type = "password" name = "user_pw" class = "inp"></label><br>
+         <label>이름<input type = "text" name = "user_name" class = "inp"></label><br>
+         <label>이메일<input type = "email" name = "user_email" class = "inp"></label><br>
+         
+         <input type = "submit" value = "가입하기">
+         <input type = "reset" value = "다시 입력">
+      </form>
+   </div>
+</body>
+</html>

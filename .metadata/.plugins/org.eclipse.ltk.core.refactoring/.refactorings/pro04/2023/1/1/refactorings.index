@@ -1,0 +1,16 @@
+1672812009937	Delete element
+1672812368471	Rename resource 'helloworld.jsp'
+1672812389256	Move 'hello.jsp' to 'main'
+1672812412674	Move 'hello.jsp' to 'webapp'
+1672812657249	Delete element
+1672878812050	Delete element
+1672878894609	Delete element
+1672885560304	Delete element
+1672900549426	Delete element
+1672902383664	Move file
+1672902393416	Move 'uploadForm.jsp' to 'webapp'
+1672903301035	Delete element
+1672965850323	Move compilation unit
+1672968655466	Encapsulate field 'id'
+1672976812372	Move 'memberForm.html' to 'test04'
+1672976813933	Move 'member.jsp' to 'test04'

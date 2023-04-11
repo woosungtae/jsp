@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function fn_calcNumber() {
+		var calcNumber = document.calcNumber;
+		var num1 = calcNumber.num1.value;
+		var mark = calcNumber.mark.value;
+		var num2 = calcNumber.num2.value;
+		if (num1.length == 0 || num1 == "") {
+			alert("숫자1는 필수입니다.");
+		} else if (mark.length == 0 || mark == "") {
+			alert("기호는 필수입니다.")
+		} else if (num2.length == 0 || num2 == "") {
+			alert("숫자2은 필수입니다.")
+		} else {
+			calcNumber.method = "get";
+			calcNumber.action = "Calculator.jsp";
+			calcNumber.submit();
+		}
+	}
+</script>
+</head>
+<body>
+	<form name="calcNumber">
+		<h1>계산기 만들기</h1>
+		<table align="center">
+			<input type="text" name="num1">
+			<select name="mark" >
+				<option>+</option>
+				<option>-</option>
+				<option>*</option>
+				<option>/</option>
+			</select>
+			<input type="text" name="num2">
+		</table>
+		<input type="button" value="계산하기" onclick="fn_calcNumber()"> 
+		<input type="reset" value="다시입력"> 
+		<input type="hidden" name="command"	value="addNumber" />
+	</form>
+</body>
+</html>

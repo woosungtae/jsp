@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<style>
+input{
+margin:15px;
+}
+label{
+width:80px;
+margin-right:40px;
+ float:center;
+}
+input[type="text"],
+input[type="password"] {
+  margin-left:30px;
+  line-height: normal; 
+  padding: .8em .5em;  
+}
+
+</style>
+<head>
+<meta charset="UTF-8">
+<title>여러 가지 input 타입 표시 창</title>
+</head>
+<body>
+<form name="frmInput" method="get" action="input">
+<label>아이디:</label>
+<input type="text" name="user_id"><br>
+<label>비밀번호:</label>
+<input type="password" name="user_pw"><br>
+<input type="checkbox" name="subject" value="java" checked>자바
+<input type="checkbox" name="subject" value="C언어">C언어
+<input type="checkbox" name="subject" value="JSP">JSP
+<input type="checkbox" name="subject" value="안드로이드">안드로이드
+<br><br>
+
+<input type="submit" value="전송">
+<input type="reset" value="초기화">
+</form>
+</body>
+</html>

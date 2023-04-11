@@ -1,0 +1,6 @@
+1674182868181	Move 'action-servlet.xml' to 'WEB-INF'
+1674182878864	Move 'views' to 'WEB-INF'
+1674182889062	Move 'config' to 'WEB-INF'
+1674182897526	Move 'lib' to 'WEB-INF'
+1674182908937	Move 'web.xml' to 'WEB-INF'
+1674183043395	Delete element
